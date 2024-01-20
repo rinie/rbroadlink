@@ -18,6 +18,7 @@ pub const REMOTE_CODES: phf::Map<u16, &'static str> = phf_map! {
     0x61A2u16 => "RM4 Pro",
     0x649Bu16 => "RM4 Pro",
     0x653Cu16 => "RM4 Pro",
+    0x272Au16 => "Broadlink RM2 Pro Plus",
 };
 
 /// A broadlink device capable of transmitting IR / RF codes.
